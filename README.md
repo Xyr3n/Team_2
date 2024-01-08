@@ -12,7 +12,7 @@ Analyzing current and past data on Spotify (human development index by region/co
 How have the popularity scores of specific tracks or artists changed over time? What are the current top tracks globally or in a specific region? Who are the most popular artists at the moment? What is the popularity of different types of audio material What are the emerging trends by region/country What are the emerging trends in music genres?
 
 #### Datasets to Be Used:
-???
+(https://developer.spotify.com/documentation/web-api)
 
 #### Rough Breakdown of Tasks:
 Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, popularity types of audio material). Based on each individual analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
