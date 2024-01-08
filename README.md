@@ -1,16 +1,31 @@
 ## Project 1 Proposal
-#### Proposal Title: 
+#### Proposal Title:
+Spotify Trends
 
-#### Team Members: 
+#### Team Members:
 Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng
 
 #### Project Description:
+Analyzing current and past data on Spotify (human development index by region/country, genre, artists, podcasts, popularity types of audio material) to identify current trends and predict future trends.
 
 #### Research Questions to Answer:
-  
+How have the popularity scores of specific tracks or artists changed over time? What are the current top tracks globally or in a specific region? Who are the most popular artists at the moment? What is the popularity of different types of audio material What are the emerging trends by region/country What are the emerging trends in music genres?
+
 #### Datasets to Be Used:
+???
 
 #### Rough Breakdown of Tasks:
+Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, popularity types of audio material). Based on each individual analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
+
+Request data via Python API and analyze datasets from Spotify
+Matplotlib/Pandas visuals (1-2 each)
+Statistical Analysis
+Update different parts of code via commit and merge branches in Github
+Link to Github Repo
+https://github.com/Xyr3n/Team_2
+
+#### Github Names of People On Project (username, email or other)
+Ricky Bialick: fingerClub Julio Dela Cruz: juliodelacruzz Tim Haake: thaake408 Kylie Li: Xyr3n Nancy Zheng: zhengn95
 
 ### Project Ideas (delete after we decide on a topic):
 - Sports Data:
