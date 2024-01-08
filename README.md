@@ -6,22 +6,29 @@ Spotify Trends
 Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng
 
 #### Project Description:
-Analyzing current and past data on Spotify (human development index by region/country, genre, artists, podcasts, popularity types of audio material) to identify current trends and predict future trends.
+Analyzing current and past data on Spotify (human development index by region/country, genre, artists, podcasts, albums) to identify current trends and predict future trends.
 
 #### Research Questions to Answer:
-How have the popularity scores of specific tracks or artists changed over time? What are the current top tracks globally or in a specific region? Who are the most popular artists at the moment? What is the popularity of different types of audio material What are the emerging trends by region/country What are the emerging trends in music genres?
+How have the popularity scores of specific tracks or artists changed over time? What are the current top tracks globally or in a specific region? Who are the most popular artists at the moment? What is the popularity of different types of audio material? What are the emerging trends by region/country What are the emerging trends in music genres?
 
 #### Datasets to Be Used:
-(https://developer.spotify.com/documentation/web-api)
+Link: https://developer.spotify.com/documentation/web-api
+Documentation>API Endpoints:
+- Albums: https://api.spotify.com/v1/albums/{id}
+- Artists: https://api.spotify.com/v1/artists/{id}
+- Markets (Country/Region): https://api.spotify.com/v1/markets
+- Genres: https://api.spotify.com/v1/recommendations/available-genre-seeds
+- Podcast: https://api.spotify.com/v1/shows/{id}
 
 #### Rough Breakdown of Tasks:
-Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, popularity types of audio material). Based on each individual analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
+Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, playlists). Based on each individual's analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
 
 Request data via Python API and analyze datasets from Spotify
 Matplotlib/Pandas visuals (1-2 each)
 Statistical Analysis
 Update different parts of code via commit and merge branches in Github
-Link to Github Repo
+
+#### Link to Github Repo
 https://github.com/Xyr3n/Team_2
 
 #### Github Names of People On Project (username, email or other)
