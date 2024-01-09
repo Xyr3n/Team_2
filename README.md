@@ -24,9 +24,9 @@ Documentation>API Endpoints:
 Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, playlists). Based on each individual's analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
 
 Request data via Python API and analyze datasets from Spotify
-Matplotlib/Pandas visuals (1-2 each)
-Statistical Analysis
-Update different parts of code via commit and merge branches in Github
+- Matplotlib/Pandas visuals (1-2 each)
+- Statistical Analysis
+- Update different parts of code via commit and merge branches in Github
 
 #### Link to Github Repo
 https://github.com/Xyr3n/Team_2
