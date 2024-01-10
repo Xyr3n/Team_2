@@ -8,16 +8,15 @@ client_id = os.getenv("client")
 client_secret = os.getenv("secret")
 
 print(client_id)
-#grant type set to client_credentials
-#application/x-ww-form-urlencoded
+#code to get access token
 def get_token():
     auth_string = client_id + ":" + client_secret
-    #encode auth_string
+
     auth_bytes = auth_string.encode("utf-8")
     auth_base64 = base64.b64encode(auth_bytes).decode('utf-8')
     url = "https://accounts.spotify.com/api/token"
     headers = {
-        #send in auth data and verify everything is correct
+
         "Authorization": "Basic " + auth_base64,
         "Content-Type": "application/x-www-form-urlencoded"
     }
@@ -25,7 +24,7 @@ def get_token():
         "grant_type": "client_credentials"
     }
 
-    #make post request to spotify accounts service
+
     response = post(url, headers=headers, data=data)
     if response.status_code == 200:
         return response.json().get("access_token")
@@ -36,6 +35,7 @@ def get_token():
 token = get_token()
 print(token)
 
+#get request function
 def spotify(endpoint, token):
 
     headers = {
