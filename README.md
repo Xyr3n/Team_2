@@ -28,6 +28,13 @@ Request data via Python API and analyze datasets from Spotify
 - Statistical Analysis
 - Update different parts of code via commit and merge branches in Github
 
+Dependent Variable (y): Popularity
+Ricky Bialick: Data Extraction & base code & liveness
+Julio Dela Cruz: Danceablity & Energy
+Tim Haake: Base Code, Clean, Merge
+Kylie Li: Valence & Speechiness
+Nancy Zheng: Tempo, write-up, proposal, slide deck set-up
+
 #### Link to Github Repo
 https://github.com/Xyr3n/Team_2
 
