@@ -1,15 +1,17 @@
 ## Project 1 Proposal
 #### Proposal Title:
-Spotify Trends
+Spotify Music Popularity 
 
 #### Team Members:
 Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng
 
 #### Project Description:
-Analyzing current and past data on Spotify (human development index by region/country, genre, artists, podcasts, albums) to identify current trends and predict future trends.
+In our project we analyzed different audio features that may contribute to popularity of the top tracks from [the top 10 artists globally in 2023](https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/) on Spotify. We made conclusions on current and future trends based on comparing various audio features to music popularity.
 
 #### Research Questions to Answer:
-How have the popularity scores of specific tracks or artists changed over time? What are the current top tracks globally or in a specific region? Who are the most popular artists at the moment? What is the popularity of different types of audio material? What are the emerging trends by region/country What are the emerging trends in music genres?
+How is popularity of popular music affected by audio features such as acousticness, tempo, energy, loudness, speechiness, danceability, and valence?
+
+Using the correlation between popularity and audiofeatures, what can we predict about future music trends?
 
 #### Datasets to Be Used:
 Link: https://developer.spotify.com/documentation/web-api
@@ -21,6 +23,7 @@ Documentation>API Endpoints:
 - Podcast: https://api.spotify.com/v1/shows/{id}
 
 #### Rough Breakdown of Tasks:
+
 Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, playlists). Based on each individual's analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
 
 Request data via Python API and analyze datasets from Spotify
@@ -39,22 +42,9 @@ Nancy Zheng: Tempo, write-up, proposal, slide deck set-up
 https://github.com/Xyr3n/Team_2
 
 #### Github Names of People On Project (username, email or other)
-Ricky Bialick: fingerClub Julio Dela Cruz: juliodelacruzz Tim Haake: thaake408 Kylie Li: Xyr3n Nancy Zheng: zhengn95
+- Ricky Bialick: fingerClub 
+- Julio Dela Cruz: juliodelacruzz 
+- Tim Haake: thaake408 
+- Kylie Li: Xyr3n 
+- Nancy Zheng: zhengn95
 
-### Project Ideas (delete after we decide on a topic):
-- Sports Data:
-  
-https://sportsdata.io/developers/api-documentation/nfl#/sports-data/player-feeds
-- E-Commerce
-  
-- Instagram/Social Media
-  
-- Spotify Artists:
-https://developer.spotify.com/documentation/web-api
-  Research Ideas
-  - Spotify API & Billboard Top 100
-  - Predict when an artist will "blow-up" in their career. Possible areas to look at: album releases, hit singles, years active 
-  an artist/band had an exponential growth or peaked in listeners. We can also have a threshold.
-
-- Additional Ideas
-https://www.springboard.com/blog/data-science/top-apis-for-data-scientists/
