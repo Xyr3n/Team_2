@@ -36,19 +36,36 @@ https://api.spotify.com/v1/audio-analysis/{track_id}
 Note: Please see python notebook for the full dataset including top tracks from each artist
 
 #### Rough Breakdown of Tasks:
-Each team member will perform individual analysis of data on Spotify (human development index by region/country, genre, artists, podcasts, playlists). Based on each individual's analysis we will make a holistic conclusion of Spotify trends regionally and globally. Each analysis will have:
+**Order of Tasks:**
+- Extract Data from Spotify by Requesting data via Python API 
+- Cleaning data and format into Dataframes & merging Dataframes
+- Matplotlib/Pandas Plots
+- Statistical Analysis using Linear Regession & Correlation with the Dependent Variable (y) as Popularity
+- Write-up & Slide Deck of the Analysis
+- Update main branch via commit and branch merging in Github
 
-Request data via Python API and analyze datasets from Spotify
-- Matplotlib/Pandas visuals (1-2 each)
-- Statistical Analysis
-- Update different parts of code via commit and merge branches in Github
+**Ricky Bialick:** 
+- Data Extraction
+- Plot Correlation & Regression line between Loudness vs Popularity with conclusion of analysis  
 
-Dependent Variable (y): Popularity
-Ricky Bialick: Data Extraction
-Julio Dela Cruz: Danceablity & Energy
-Tim Haake: Data Extraction, Data Cleaning, Merging Tables
-Kylie Li: Valence & Speechiness
-Nancy Zheng: Tempo, write-up, proposal, slide deck set-up
+**Julio Dela Cruz:**
+- Plot Correlation & Regression line between Danceablity vs Popularity with conclusion of analysis
+- Plot Correlation & Regression line between Energy vs Popularity with conclusion of analysis  
+
+**Tim Haake:**
+- Data Extraction
+- Data Cleaning
+- Merging Tables  
+
+**Kylie Li:**
+- Plot Correlation & Regression line between Valence vs Popularity with conclusion of analysis
+- Plot Correlation & Regression line between Speechiness vs Popularity with conclusion of analysis  
+
+**Nancy Zheng:**
+- Proposal Draft & Edits
+- Plot Correlation & Regression line between Tempo vs Popularity with conclusion of analysis
+- Write-up Draft & Edits
+- Slide Deck Draft & Edits
 
 #### Link to Github Repo
 https://github.com/Xyr3n/Team_2
