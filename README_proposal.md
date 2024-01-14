@@ -55,11 +55,12 @@ Note: Please see python notebook for the full dataset including top tracks from 
 **Tim Haake:**
 - Data Extraction
 - Data Cleaning
-- Merging Tables  
+- Plot Correlation & Regression line between Acousticness vs Popularity with conclusion of analysis
 
 **Kylie Li:**
 - Plot Correlation & Regression line between Valence vs Popularity with conclusion of analysis
 - Plot Correlation & Regression line between Speechiness vs Popularity with conclusion of analysis  
+- Merging Tables  
 
 **Nancy Zheng:**
 - Proposal Draft & Edits
