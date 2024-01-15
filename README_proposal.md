@@ -17,56 +17,66 @@ Using the correlation between popularity and audiofeatures, what can we predict 
 [Spotify Web API](https://developer.spotify.com/documentation/web-api)  
 [The Top 10 Artists Globally in 2023](https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/)  
 
-**Track ID API Endpoint to Extract Audio Features**
-track_id = '1BxfuPKGuaTgP7aM0Bbdwr'  
-https://api.spotify.com/v1/audio-analysis/{track_id}  
+**Top 10 Artists Streamed on Spotify in the United States - Artist ID numbers**
 
-**Top 10 Artist URI ID: ** 
-1. Taylor Swift: spotify:artist:06HL4z0CvFAxyc27GXpf02
-2. Drake: drake_uri= spotify:artist:3TVXtAsR1Inumwj472S9r4
-3. Travis Scott: spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY
-4. Zach Bryan: spotify:artist:40ZNYROS4zLfyyBSs2PGe2
-5. Kanye West: spotify:artist:5K4W6rqBFWDnAN6FQUkS6x
-6. The Weeknd: spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ
-7. Morgan Wallen: spotify:artist:4oUHIQIBe0LHzYfvXNW4QM
-8. 21 Savage: spotify:artist:1URnnhqYAYcrqrcwql10ft
-9. Bad Bunny: spotify:artist:4q3ewBCX7sLwd24euuV69X
-10. Future: spotify:artist:1RyvyyTE3xzB2ZywiAwp0i
+1. Taylor Swift - https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=28979011a2f446fb
+2. Drake - https://open.spotify.com/artist/3TVXtAsR1Inutravj472S9r4?si=c036ec885a6c4ab7
+3. Travis Scott - https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=13b2ea9ddc304c14
+4. Zach Bryan - https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2?si=db0c9492a4a44e5c
+5. Kanye West - https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x?si=14d9933251a04f4e
+6. The Weeknd - https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ?si=7fd262759d3d453f
+7. Morgan Wallen - https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM?si=7c693b6829d04717
+8. 21 Savage - https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft?si=f620ac02e71c485e
+9. Bad Bunny - https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X?si=aad3dd7099f742bf
+10. Future - https://open.spotify.com/artist/1RyvyyTE3xzB2ZywiAwp0i?si=876369688ab64a7d**Track ID 
 
-Note: Please see python notebook for the full dataset including top tracks from each artist
+**API Endpoint to Extract Audio Features**  
+track_href': https://api.spotify.com/v1/tracks/{Track ID}  
+analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}  
+
+*Note: Please see python notebook for the Track IDs and Audio Analysis ID's for each top track *
 
 #### Rough Breakdown of Tasks:
-**Order of Tasks:**
-- Extract Data from Spotify by Requesting data via Python API 
-- Cleaning data and format into Dataframes & merging Dataframes
-- Matplotlib/Pandas Plots
-- Statistical Analysis using Linear Regession & Correlation with the Dependent Variable (y) as Popularity
-- Write-up & Slide Deck of the Analysis
-- Update main branch via commit and branch merging in Github
+
+**Tasks:**
+- Data extraction from Spotify API by requesting data using python 
+- Cleaning data and format into dataframes 
+- Merging dataframes
+- Statistical analysis using linear regession & correlation with the dependent variable (y) as Popularity
+- Statistical analysis using boxplots and summary statistics of each audio feature
+- Update main branch via commit and merge each member's analysis in github
+- Write-up & slide Deck of the analysis
 
 **Ricky Bialick:** 
-- Data Extraction
-- Plot Correlation & Regression line between Loudness vs Popularity with conclusion of analysis  
+- Data extraction from Spotify API
+- Plot correlation & regression line between Loudness vs Popularity with conclusion of analysis 
+- Statistical analysis using boxplots and summary statistics for loudness
 
 **Julio Dela Cruz:**
-- Plot Correlation & Regression line between Danceablity vs Popularity with conclusion of analysis
-- Plot Correlation & Regression line between Energy vs Popularity with conclusion of analysis  
+- Plot correlation & regression line between danceablity vs popularity with conclusion of analysis
+- Statistical analysis using boxplots and summary statistics for danceability
+- Plot correlation & regression line between Energy vs Popularity with conclusion of analysis  
+- Statistical analysis using boxplots and summary statistics for energy
 
 **Tim Haake:**
-- Data Extraction
-- Data Cleaning
-- Plot Correlation & Regression line between Acousticness vs Popularity with conclusion of analysis
+- Data extraction from Spotify API
+- Data cleaning & format into dataframes
+- Plot correlation & regression line between Acousticness vs Popularity with conclusion of analysis
+- Statistical analysis using boxplots and summary statistics for acousticness
 
 **Kylie Li:**
-- Plot Correlation & Regression line between Valence vs Popularity with conclusion of analysis
-- Plot Correlation & Regression line between Speechiness vs Popularity with conclusion of analysis  
-- Merging Tables  
+- Plot correlation & regression line between Valence vs Popularity with conclusion of analysis
+- Statistical analysis using boxplots and summary statistics for valence
+- Plot correlation & regression line between Speechiness vs Popularity with conclusion of analysis  
+- Statistical analysis using boxplots and summary statistics for speechiness
+- Merging tables  
 
 **Nancy Zheng:**
-- Proposal Draft & Edits
-- Plot Correlation & Regression line between Tempo vs Popularity with conclusion of analysis
-- Write-up Draft & Edits
-- Slide Deck Draft & Edits
+- Proposal draft & edits
+- Plot correlation & regression line between Tempo vs Popularity with conclusion of analysis
+- Statistical analysis using boxplots and summary statistics for tempo
+- Write-up draft & edits
+- Slide deck draft & edits
 
 #### Link to Github Repo
 https://github.com/Xyr3n/Team_2
