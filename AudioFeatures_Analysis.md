@@ -1,13 +1,4 @@
 # Spotify Audio Features vs Popularity Analysis and Conclusion
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-- Write-up summarizes major findings and implications at a professional level (5 points)
-- Each question in the project proposal is answered with precise descriptions and findings (5 points)
-- Findings are strongly supported with numbers and visualizations (5 points)
-- Each question response is supported with a well-discerned statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and time series analysis) (5 points)
-=======
-=======
->>>>>>> main
 
 **Contributers:** Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng  
 **Link to Github Repo:** https://github.com/Xyr3n/Team_2  
@@ -61,11 +52,7 @@ analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}
 - Statistical analysis using boxplots and summary statistics for loudness
 
 **Julio Dela Cruz:**
-<<<<<<< HEAD
-- Plot correlation & regression line between Danceablity vs Popularity with conclusion of analysis
-=======
 - Plot correlation & regression line between danceablity vs popularity with conclusion of analysis
->>>>>>> main
 - Statistical analysis using boxplots and summary statistics for danceability
 - Plot correlation & regression line between Energy vs Popularity with conclusion of analysis  
 - Statistical analysis using boxplots and summary statistics for energy
@@ -90,7 +77,3 @@ analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}
 - Write-up draft & edits
 - Slide deck draft & edits
 
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> main
