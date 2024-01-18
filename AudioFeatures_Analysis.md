@@ -52,7 +52,7 @@ analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}
 - Statistical analysis using boxplots and summary statistics for loudness
 
 **Julio Dela Cruz:**
-- Plot correlation & regression line between danceablity vs popularity with conclusion of analysis
+- Plot correlation & regression line between Danceablity vs Popularity with conclusion of analysis
 - Statistical analysis using boxplots and summary statistics for danceability
 - Plot correlation & regression line between Energy vs Popularity with conclusion of analysis  
 - Statistical analysis using boxplots and summary statistics for energy
