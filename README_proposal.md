@@ -6,7 +6,7 @@ Spotify Music Popularity
 Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng
 
 #### Project Description:
-In our project we analyzed different audio features that may contribute to popularity of the top tracks from [the top 10 artists globally in 2023](https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/) on Spotify. We made conclusions on current and future trends based on comparing various audio features to music popularity.
+In our project, we analyzed different audio features that may contribute to the popularity of the top tracks from [Top 10 Streamed Artists in the United States on Spotify](https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C). We made conclusions on current and future trends based on comparing various audio features to music popularity.
 
 #### Research Questions to Answer:
 How is popularity of popular music affected by audio features such as acousticness, tempo, energy, loudness, speechiness, danceability, and valence?
@@ -48,7 +48,7 @@ analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}
 - Write-up & slide Deck of the analysis
 
 **Ricky Bialick:** 
-- Data extraction from Spotify API
+- Data authentication from Spotify API
 - Plot correlation & regression line between Loudness vs Popularity with conclusion of analysis 
 - Statistical analysis using boxplots and summary statistics for loudness
 
@@ -73,6 +73,7 @@ analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}
 
 **Nancy Zheng:**
 - Proposal draft & edits
+- Defined the function of regression plot & boxplot
 - Plot correlation & regression line between Tempo vs Popularity with conclusion of analysis
 - Statistical analysis using boxplots and summary statistics for tempo
 - Write-up draft & edits
