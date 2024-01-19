@@ -1,16 +1,16 @@
 # Spotify Audio Features vs Popularity Analysis and Conclusion
 
-**Contributers:** Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng  
+**Contributors:** Richard Bialick, Julio Dela Cruz, Tim Haake, Kylie Li, Nancy Zheng  
 **Link to Github Repo:** https://github.com/Xyr3n/Team_2  
 [Presentation Link](https://docs.google.com/presentation/d/16aQn_27_jSCnHkuAOaOS74O0h8zrKMDVw1VuPrmlfOE/edit?usp=sharing)  
 
 #### Project Description:
-In our project we analyzed different audio features that may contribute to popularity of the top tracks from [the top 10 artists globally in 2023](https://newsroom.spotify.com/2023-11-29/top-songs-artists-podcasts-albums-trends-2023/) on Spotify. We made conclusions on current and future trends based on comparing various audio features to music popularity.
+In our project, we analyzed different audio features that may contribute to the popularity of the top tracks from [Top 10 Streamed Artists in the United States on Spotify](https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C). We made conclusions on current and future trends based on comparing various audio features to music popularity.
 
-#### Research Questions to Answer:
-How is popularity of popular music affected by audio features such as acousticness, tempo, energy, loudness, speechiness, danceability, and valence?
+#### Research Questions:
+How is the popularity of the top tracks of the Top 10 Streamed Artists on Spotify  affected by audio features such as acousticness, tempo, energy, loudness, speechiness, danceability, and valence?  
 
-Using the correlation between popularity and audiofeatures, what can we predict about future music trends?
+Using the correlation between popularity and audio features, what can we predict about future music trends?  
 
 #### Datasets Used:
 [Spotify Web API](https://developer.spotify.com/documentation/web-api)  
@@ -33,47 +33,57 @@ Using the correlation between popularity and audiofeatures, what can we predict 
 track_href': https://api.spotify.com/v1/tracks/{Track ID}  
 analysis_url': 'https://api.spotify.com/v1/audio-analysis/{Audio Analysis ID}  
 
-*Note: Please see python notebook for the Track IDs and Audio Analysis ID's for each top track *
+*Note: Please see the Python notebook for the Track IDs and Audio Analysis IDs for each top track *
 
 #### Rough Breakdown of Tasks:
 
 **Tasks:**
 - Data extraction from Spotify API by requesting data using python 
-- Cleaning data and format into dataframes 
-- Merging dataframes
-- Statistical analysis using linear regession & correlation with the dependent variable (y) as Popularity
+- Cleaning data and format into data frames 
+- Merging data frames
+- Statistical analysis using linear regression & correlation with the dependent variable (y) as Popularity
 - Statistical analysis using boxplots and summary statistics of each audio feature
-- Update main branch via commit and merge each member's analysis in github
+- Update the main branch via commit and merge each member's analysis in GitHub
 - Write-up & slide Deck of the analysis
 
 **Ricky Bialick:** 
-- Data extraction from Spotify API
-- Plot correlation & regression line between Loudness vs Popularity with conclusion of analysis 
+- Data authentication of Spotify API
+- Plot correlation & regression line between Loudness vs Popularity with the conclusion of the analysis 
 - Statistical analysis using boxplots and summary statistics for loudness
 
 **Julio Dela Cruz:**
-- Plot correlation & regression line between Danceablity vs Popularity with conclusion of analysis
+- Plot correlation & regression line between Danceability vs Popularity with the conclusion of the analysis
 - Statistical analysis using boxplots and summary statistics for danceability
-- Plot correlation & regression line between Energy vs Popularity with conclusion of analysis  
+- Plot correlation & regression line between Energy vs Popularity with the conclusion of the analysis  
 - Statistical analysis using boxplots and summary statistics for energy
 
 **Tim Haake:**
 - Data extraction from Spotify API
-- Data cleaning & format into dataframes
-- Plot correlation & regression line between Acousticness vs Popularity with conclusion of analysis
-- Statistical analysis using boxplots and summary statistics for acousticness
+- Data cleaning & format into data frames
+- Plot correlation & regression line between Acousticness vs Popularity with the conclusion of the analysis
+- Statistical analysis using boxplots and summary statistics for acoustics
 
 **Kylie Li:**
-- Plot correlation & regression line between Valence vs Popularity with conclusion of analysis
+- Plot correlation & regression line between Valence vs Popularity with the conclusion of the analysis
 - Statistical analysis using boxplots and summary statistics for valence
-- Plot correlation & regression line between Speechiness vs Popularity with conclusion of analysis  
-- Statistical analysis using boxplots and summary statistics for speechiness
+- Plot correlation & regression line between Speechiness vs Popularity with the conclusion of the analysis  
+- Statistical analysis using boxplots and summary statistics for speeches
 - Merging tables  
 
 **Nancy Zheng:**
-- Proposal draft & edits
-- Plot correlation & regression line between Tempo vs Popularity with conclusion of analysis
+- Proposal, write-up, and slide deck draft & edits
+- Defined regression plot & boxplot functions 
+- Plot correlation & regression line between Tempo vs Popularity with the conclusion of the analysis
 - Statistical analysis using boxplots and summary statistics for tempo
-- Write-up draft & edits
-- Slide deck draft & edits
+
+#### Summary and Conclusions
+The top tracks of the top streaming artists on Spotify on January 17, 2024 do not appear to be  affected by audio features.
+The correlation coefficient (r) showed a very weak or no correlation across all audio features when compared with popularity of tracks. We can conclude that the specified audio features are unlikely to affect popular music and future trends in music.
+
+#### Limitations 
+- Limited to popular music vs other genres
+- Limited specific audio features vs all audio features
+- Limited to only Top Tracks in the United States vs Globally
+- Limited to top 10 artists and their top tracks vs all music on Spotify
+- Performed Linear Regression and Pearson’s Correlation only vs Chi-Square and other tests for significance
 
